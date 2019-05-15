@@ -136,5 +136,10 @@
       }
     }
   },
-  "defaultProject": "nebular-test"
+  "defaultProject": "nebular-test",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
